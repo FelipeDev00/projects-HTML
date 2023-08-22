@@ -1,1 +1,2 @@
-# Projetos e exercícios sobre meus estudos em HTML, apenas HTML puro, sem utilização de CSS.
+# Projetos e exercícios em HTML, apenas utilizando HTML puro, sem utilização de CSS. 
+apenas páginas simples, preto e branco
