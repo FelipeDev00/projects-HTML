@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <style>
+
+        header {
+            background-color: rgb(69, 102, 211);
+        }
+        body {
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            background-color: rgb(73, 132, 184);
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .menu {
+            color: white;
+            list-style: none;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        .tr{
+            background-color: grey;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            background-color:rgb(56, 255, 238);
+            color: rgb(0, 0, 0);
+            margin-top: 20px;
+            width: 60%;
+            margin: 20px auto;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <h1>Clínica Médica</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#">Página Principal</a></li>
+            <li><a href="#">Sobre a Clínica</a></li>
+            <li><a href="#">Horário de Atendimento</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <table>
+        <tr class="tr">
+            <th>Dia</th>
+            <th>Horário</th>
+        </tr>
+        <tr>
+            <td>Segunda a Sexta</td>
+            <td>8h - 18h</td>
+        </tr>
+        <tr>
+            <td>Sábado</td>
+            <td>8h - 12h</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    
+    <footer>
+        <p>Localização: Rua Fictícia, 123 - Cidade Fictícia</p>
+    </footer>
+</body>
+</html>
