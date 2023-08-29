@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia simplificado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f3f3f3;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #f3f3f3;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Wikipedia</h1>
+        <input type="text" placeholder="Pesquisar...">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Wikipédia em HTML</h2>
+            <p>Este é uma versão simplificada do wikipédia apenas usando html e um pouco de css<br> apenas treinando
+                alguns conceitos vistos nas aulas da DIO sobre HTML e sites simples </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Wikipedia simplificado</p>
+    </footer>
+</body>
+
+</html>
